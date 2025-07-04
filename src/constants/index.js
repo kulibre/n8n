@@ -204,7 +204,7 @@ const testimonials = [
     name: "Esther Howard",
     mentions: "@estherhoward",
     review:
-      "I can't say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "I can't say enough good things about Saad. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
     imgPath: "/images/client1.png",
   },
   {
@@ -218,7 +218,7 @@ const testimonials = [
     name: "Guy Hawkins",
     mentions: "@guyhawkins",
     review:
-      "Collaborating with Saad was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Saad is the ideal partner.",
+      "Collaborating with Saad was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Saad's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Saad is the ideal partner.",
     imgPath: "/images/client2.png",
   },
   {
@@ -232,7 +232,7 @@ const testimonials = [
     name: "Floyd Miles",
     mentions: "@floydmiles",
     review:
-      "Adrian's expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He's a true professional!",
+      "Saad's expertise in web development is truly impressive. He delivered a robust and scalable solution for our SaaS business, and our online sales have significantly increased since the launch. He's a true professional!",
     imgPath: "/images/client4.png",
   },
   {
