@@ -51,15 +51,29 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Saad, a developer based in Croatia with a passion for
+              Hi, I'm Saad, a developer based in Croatia with a passion for
               code.
             </p>
 
-            <Button
-              text="See My Work"
-              className="md:w-80 md:h-16 w-60 h-12"
-              id="counter"
-            />
+            <div className="flex gap-4">
+              <Button
+                text="See My Work"
+                className="md:w-80 md:h-16 w-60 h-12"
+                id="counter"
+              />
+              <Button
+                text="View Resume"
+                className="md:w-80 md:h-16 w-60 h-12"
+                arrowDirection="up"
+                onClick={() => {
+                  const link = document.createElement('a');
+                  link.href = '/assets/Muhammad%20Saad%20Resume.pdf';
+                  link.target = '_blank';
+                  link.rel = 'noopener noreferrer';
+                  link.click();
+                }}
+              />
+            </div>
           </div>
         </header>
 

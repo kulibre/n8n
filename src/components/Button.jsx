@@ -4,16 +4,21 @@
  * with a small offset from the top for better visual placement.
  */
 
-const Button = ({ text, className, id }) => {
+const Button = ({ text, className, id, onClick, arrowDirection = "down" }) => {
   return (
     <a
       onClick={(e) => {
         e.preventDefault(); // Stop the link from jumping instantly
 
+        if (onClick) {
+          onClick(e);
+          return;
+        }
+
         const target = document.getElementById("counter"); // Find the section with ID "counter"
 
         // Only scroll if we found the section and an ID is passed in
-        // taht prevents the contact button from scrolling to the top
+        // that prevents the contact button from scrolling to the top
         if (target && id) {
           const offset = window.innerHeight * 0.15; // Leave a bit of space at the top
 
@@ -26,11 +31,12 @@ const Button = ({ text, className, id }) => {
         }
       }}
       className={`${className ?? ""} cta-wrapper`} // Add base + extra class names
+      href={onClick ? "#" : undefined}
     >
       <div className="cta-button group">
         <div className="bg-circle" />
         <p className="text">{text}</p>
-        <div className="arrow-wrapper">
+        <div className={`arrow-wrapper ${arrowDirection === "up" ? "rotate-180" : ""} ml-2`}>
           <img src="/images/arrow-down.svg" alt="arrow" />
         </div>
       </div>
