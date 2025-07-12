@@ -51,8 +51,7 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I'm Saad, a developer based in Croatia with a passion for
-              code.
+              n8n Workflow Creator based in Pakistan, passion for automation
             </p>
 
             <div className="flex gap-4">
