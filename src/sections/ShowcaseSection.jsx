@@ -50,7 +50,7 @@ const AppShowcase = () => {
       <div className="w-full">
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
-            <a href="https://kisanmarkaz.vercel.app/" target="_blank" rel="noopener noreferrer" className="block">
+            <div className="block">
               <div className="image-wrapper">
                 <img src="/images/project1.png" alt="Ryde App Interface" />
               </div>
@@ -62,12 +62,12 @@ const AppShowcase = () => {
                   An AI-powered automation system built using n8n, OpenAI, and API integrations — designed for speed, scalability, and a seamless no-code experience.
                 </p>
               </div>
-            </a>
+            </div>
           </div>
 
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
-              <a href="https://nova-three-hazel.vercel.app/" target="_blank" rel="noopener noreferrer" className="block">
+              <div className="block">
                 <div className="image-wrapper bg-[#FFEFDB]">
                   <img
                     src="/images/project2.png"
@@ -75,16 +75,16 @@ const AppShowcase = () => {
                   />
                 </div>
                 <h2>AI-Driven YouTube Shorts Automation System with n8n</h2>
-              </a>
+              </div>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
-              <a href="https://velvetpour-ten.vercel.app/" target="_blank" rel="noopener noreferrer" className="block">
+              <div className="block">
                 <div className="image-wrapper bg-[#FFE7EB]">
                   <img src="/images/project3.png" alt="Animated Cocktail Landing Page" />
                 </div>
                 <h2>Fully Automated AI YouTube Shorts Generator with n8n</h2>
-              </a>
+              </div>
             </div>
           </div>
         </div>
