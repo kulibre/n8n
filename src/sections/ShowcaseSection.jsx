@@ -56,12 +56,10 @@ const AppShowcase = () => {
               </div>
               <div className="text-content">
                 <h2>
-                  Agriculture Made Simple with a Powerful, User-Friendly Website
-                  called KisanMarkaz
+                  AI-Powered Anime Art Factory Automation (n8n + OpenAI)
                 </h2>
                 <p className="text-white-50 md:text-xl">
-                  A website built with React, Node.js, & TailwindCSS for a fast,
-                  user-friendly experience.
+                  An AI-powered automation system built using n8n, OpenAI, and API integrations — designed for speed, scalability, and a seamless no-code experience.
                 </p>
               </div>
             </a>
@@ -76,7 +74,7 @@ const AppShowcase = () => {
                     alt="Game Company Landing Page"
                   />
                 </div>
-                <h2>Game Company Landing Page</h2>
+                <h2>AI-Driven YouTube Shorts Automation System with n8n</h2>
               </a>
             </div>
 
@@ -85,7 +83,7 @@ const AppShowcase = () => {
                 <div className="image-wrapper bg-[#FFE7EB]">
                   <img src="/images/project3.png" alt="Animated Cocktail Landing Page" />
                 </div>
-                <h2>Animated Cocktail Landing Page</h2>
+                <h2>Fully Automated AI YouTube Shorts Generator with n8n</h2>
               </a>
             </div>
           </div>
