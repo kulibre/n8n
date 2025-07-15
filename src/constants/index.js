@@ -241,12 +241,7 @@ const testimonials = [
   },
 ];
 
-const socialImgs = [
-  {
-    name: "linkedin",
-    imgPath: "/images/linkedin.png",
-  },
-];
+const socialImgs = [];
 
 export {
   words,
